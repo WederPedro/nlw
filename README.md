@@ -1,10 +1,6 @@
 # NLW
 
-====
-
 ## Project Ecoleta - Next Level Week - RocketSeat
-
-===
 
 ## Dependencies
 
