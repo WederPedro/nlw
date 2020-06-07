@@ -96,19 +96,6 @@ server.get("/search", (req, res) => {
             }
 
             const total = rows.length
-                //   if (total <= 1) {
-
-            //       const totalPoints = total + " ponto"
-
-            //       //mostrar as páginas html com os bancos de dados
-            //       return res.render("search-results.html", { places: rows, totalPoints })
-            //   } else {
-
-            //       const totalPoints = total + " pontos"
-
-            //       //mostrar as páginas html com os bancos de dados
-            //       return res.render("search-results.html", { places: rows, totalPoints: totalPoints })
-            //   }
 
             //mostrar as páginas html com os bancos de dados
             return res.render("search-results.html", { places: rows, total })
@@ -120,19 +107,6 @@ server.get("/search", (req, res) => {
             }
 
             const total = rows.length
-                //   if (total <= 1) {
-
-            //       const totalPoints = total + " ponto"
-
-            //       //mostrar as páginas html com os bancos de dados
-            //       return res.render("search-results.html", { places: rows, totalPoints })
-            //   } else {
-
-            //       const totalPoints = total + " pontos"
-
-            //       //mostrar as páginas html com os bancos de dados
-            //       return res.render("search-results.html", { places: rows, totalPoints: totalPoints })
-            //   }
 
             //mostrar as páginas html com os bancos de dados
             return res.render("search-results.html", { places: rows, total })
@@ -144,19 +118,6 @@ server.get("/search", (req, res) => {
             }
 
             const total = rows.length
-                //   if (total <= 1) {
-
-            //       const totalPoints = total + " ponto"
-
-            //       //mostrar as páginas html com os bancos de dados
-            //       return res.render("search-results.html", { places: rows, totalPoints })
-            //   } else {
-
-            //       const totalPoints = total + " pontos"
-
-            //       //mostrar as páginas html com os bancos de dados
-            //       return res.render("search-results.html", { places: rows, totalPoints: totalPoints })
-            //   }
 
             //mostrar as páginas html com os bancos de dados
             return res.render("search-results.html", { places: rows, total })
