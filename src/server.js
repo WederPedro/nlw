@@ -1,6 +1,10 @@
 const express = require("express")
 const server = express()
 
+//configuração de porta no heroku
+var porta = process.env.PORT || 8080;
+app.listen(porta);
+
 //pegar o banco de dados
 const db = require("./database/db")
 
