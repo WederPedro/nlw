@@ -1,9 +1,7 @@
 const express = require("express")
 const server = express()
 
-//configuração de porta no heroku
-var porta = process.env.PORT || 8080;
-app.listen(porta);
+
 
 //pegar o banco de dados
 const db = require("./database/db")
@@ -130,4 +128,4 @@ server.get("/search", (req, res) => {
 })
 
 //ligar o servidor
-//server.listen(3000)
+server.listen(process.env.PORT || 8080)
