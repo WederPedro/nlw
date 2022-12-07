@@ -6,7 +6,7 @@
         "start_homo": "nodemon src/server.js"
     },
     "dependencies": {
-        "express": "^4.17.1",
+        "express": "^4.18.2",
         "nunjucks": "^3.2.1",
         "pg": "^8.2.1",
         "yarn": "^1.22.4"
